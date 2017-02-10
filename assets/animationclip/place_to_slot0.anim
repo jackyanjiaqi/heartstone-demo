@@ -1,0 +1,86 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "place_to_slot0",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            14,
+            200
+          ]
+        },
+        {
+          "frame": 0.5,
+          "value": [
+            0,
+            569
+          ]
+        }
+      ],
+      "scaleX": [
+        {
+          "frame": 0,
+          "value": 4
+        },
+        {
+          "frame": 0.5,
+          "value": 1
+        }
+      ],
+      "scaleY": [
+        {
+          "frame": 0,
+          "value": 4
+        },
+        {
+          "frame": 0.5,
+          "value": 1
+        }
+      ],
+      "rotation": [
+        {
+          "frame": 0,
+          "value": 4
+        },
+        {
+          "frame": 0.5,
+          "value": 0
+        }
+      ],
+      "width": [
+        {
+          "frame": 0.5,
+          "value": 120
+        }
+      ],
+      "height": [
+        {
+          "frame": 0.5,
+          "value": 170
+        }
+      ]
+    }
+  },
+  "events": [
+    {
+      "frame": 0,
+      "func": "onAnimStart",
+      "params": []
+    },
+    {
+      "frame": 0.5,
+      "func": "onPlaceEnd",
+      "params": [
+        0
+      ]
+    }
+  ]
+}

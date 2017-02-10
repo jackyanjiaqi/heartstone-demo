@@ -1,0 +1,9 @@
+{
+  "excludeScenes": [
+    "2d2f792f-a40c-49bb-a189-ed176a246e49"
+  ],
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "web-mobile",
+  "startScene": "f3b55ac3-668f-4d94-b997-94018581914e",
+  "title": "HeartStoneDemo"
+}

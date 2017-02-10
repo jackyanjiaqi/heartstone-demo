@@ -1,0 +1,123 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "draw_a_card",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            538,
+            112
+          ],
+          "curve": "cubicIn",
+          "motionPath": [
+            [
+              445,
+              116,
+              500,
+              114,
+              383,
+              135
+            ],
+            [
+              155,
+              185,
+              235,
+              183,
+              32,
+              188
+            ]
+          ]
+        },
+        {
+          "frame": 0.4166666666666667,
+          "value": [
+            -15,
+            137
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 1,
+          "value": [
+            11,
+            135
+          ],
+          "motionPath": []
+        }
+      ],
+      "rotation": [
+        {
+          "frame": 0,
+          "value": -51,
+          "curve": [
+            0.19,
+            0.57,
+            0.53,
+            0.91
+          ]
+        },
+        {
+          "frame": 0.4166666666666667,
+          "value": -2
+        },
+        {
+          "frame": 1,
+          "value": 4
+        }
+      ],
+      "scaleX": [
+        {
+          "frame": 0,
+          "value": 1
+        },
+        {
+          "frame": 0.4166666666666667,
+          "value": 4
+        }
+      ],
+      "scaleY": [
+        {
+          "frame": 0,
+          "value": 1
+        },
+        {
+          "frame": 0.4166666666666667,
+          "value": 4
+        }
+      ]
+    },
+    "paths": {
+      "HelloWorld": {
+        "props": {
+          "width": [
+            {
+              "frame": 0.9833333333333333,
+              "value": 120
+            }
+          ],
+          "height": [
+            {
+              "frame": 0.9833333333333333,
+              "value": 170
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 1,
+      "func": "onDrawEnd",
+      "params": []
+    }
+  ]
+}
